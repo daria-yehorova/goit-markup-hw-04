@@ -431,7 +431,7 @@ letter-spacing: 0.02em;
 
 .container-footer {
 display: flex;
-align-items: center;
+align-items: baseline;
 }
 .page-footer {
     display: flex;  
