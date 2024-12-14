@@ -353,6 +353,8 @@ align-items: center;
     justify-content: center;
 }
 .portfolio-link {
+    overflow: hidden;
+    position: relative;
     width: calc(100% - 48) / 3;
 }
 
@@ -388,10 +390,6 @@ padding: 40px 32px;
 background-color: #4d5ae5;
 transform: translateY(100%);
 
-}
-.portfolio-link {
-    overflow: hidden;
-    position: relative;
 }
 .portfolio-link:hover .over-port {
 bottom: 0;
@@ -486,6 +484,7 @@ gap: 16px;
     border-radius:50%;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
