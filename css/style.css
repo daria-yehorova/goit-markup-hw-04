@@ -306,6 +306,7 @@ height: 40px;
 border-radius: 50%;
 background-color: #4D5AE5;
 row-gap: 24px;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .icons {
@@ -433,7 +434,7 @@ align-items: baseline;
 .page-footer {
     display: flex;  
     background-color: #2e2f42;
-    padding: 0;
+    padding: 100px 0;
 }
 .logo-part {
     color: #f4f4fd;
@@ -461,7 +462,7 @@ align-items: baseline;
 .social-blok {
     display: inline-block;
     }
-.div-footer {
+.logo-blok {
  margin-right: 120px;
  }
 
