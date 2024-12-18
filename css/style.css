@@ -176,7 +176,7 @@ align-items: center;
     color: #fff;
 }
 
-/* < !-- Section advantages --> */
+/* Section advantages */
 
  .visually-hidden {
     position: absolute;
@@ -193,10 +193,7 @@ align-items: center;
 .section-advant {
 padding: 120px 0;
 }
-.advantages-list {
-    display: flex;
-    gap: 24px;
-}
+
  .adv-link{
    width: calc((100% - 72px) / 4); 
 }
@@ -215,7 +212,8 @@ padding: 120px 0;
     letter-spacing: 0.02em;
 }
  .advantages-list {
- padding-bottom: 24px;
+    gap: 24px;
+    padding-bottom: 24px;
     margin-bottom: 8px;
     display: flex;
     justify-content: center;
